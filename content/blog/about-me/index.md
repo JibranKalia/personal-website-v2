@@ -5,9 +5,9 @@ description: If you are interested
 tags: SASS, Font End
 ---
 
-I am full-stack software developer based in Dallas, TX. I love programming and reading.
+I am a full-stack software developer based in Dallas, TX. I love programming and reading.
 
-You can find me on [LinkedIn](https://www.linkedin.com/in/jibran-kalia/), [Twitter](https://twitter.com/jibrankalia), and [Goodreads](https://www.goodreads.com/jibrankalia). Or write me an email to jibran.kalia@gmail.com
+You can find me on [LinkedIn](https://www.linkedin.com/in/jibran-kalia/), [Twitter](https://twitter.com/jibrankalia), and [Goodreads](https://www.goodreads.com/jibrankalia). Or write me an email at jibran.kalia@gmail.com.
 
 
 #### Technologies I use every single day
