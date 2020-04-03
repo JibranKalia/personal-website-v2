@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Jibran's Dev Blog`,
     author: {
       name: `Jibran Kalia`,
       summary: `who lives in Dallas, TX and loves making web apps.`,
@@ -9,6 +9,7 @@ module.exports = {
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
       twitter: `jibrankalia`,
+      github: `jibrankalia`
     },
   },
   plugins: [
