@@ -40,4 +40,4 @@ I like to think of `&` as copying the parent selector and pasting it next to the
 
 There are a lot more uses of `&` in sass. This article in [CSS-Tricks](https://css-tricks.com/the-sass-ampersand/) does an amazing job explaining everything. 
 
-Thank You for reading!
+Thank you for reading!

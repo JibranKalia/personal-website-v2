@@ -39,4 +39,4 @@ Furthermore, there is some cool [theming support](https://github.com/HappenApps/
 
 ![Note Interface](./resources/5w6C13A10149E0B014A5586D91DCFBB62.png)
 
-Yup. I am a fan. Thank You for reading.
+Yup. I am a fan. Thank you for reading.
