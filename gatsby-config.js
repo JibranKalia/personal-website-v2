@@ -6,7 +6,7 @@ module.exports = {
       summary: `who lives in Dallas, TX and loves making web apps.`,
     },
     description: `Jibran Kalia's personal blog`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://jibrankalia.com/`,
     social: {
       twitter: `jibrankalia`,
       github: `jibrankalia`
@@ -50,6 +50,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-google-analytics`,
