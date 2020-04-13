@@ -2,7 +2,9 @@
 title: Vim tip for Quiver
 date: "2020-04-05T16:19:41.108Z"
 description: Enable navigating around wrapped lines using vim commands in Quiver
-tags: Writing, Quiver 
+tags: 
+  - Writing
+  - Quiver 
 ---
 
 #### Navigating wrapped lines using Vim 

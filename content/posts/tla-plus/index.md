@@ -2,7 +2,8 @@
 title: TLA Plus
 date: "2018-12-25T06:00:00.000Z"
 description: Brief exploration into TLA Plus
-tags: Formal Specification Language
+tags: 
+  - Formal Specification Language
 ---
 
 I just read an incredible paper written by engineers at AWS: [Use of Formal Methods at Amazon Web Services](https://lamport.azurewebsites.net/tla/formal-methods-amazon.pdf)

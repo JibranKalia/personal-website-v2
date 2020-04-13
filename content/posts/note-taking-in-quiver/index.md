@@ -2,7 +2,9 @@
 title: Note taking in Quiver
 date: "2020-04-04T15:34:24.481Z"
 description: My experience using Quiver for writing and note taking
-tags: Writing, Quiver
+tags: 
+  - Writing
+  - Quiver
 ---
 
 I recently started using [Quiver](https://happenapps.com) to do my normal note-taking. I had already tried a whole gamut of other apps including Evernote, Notion, and Boostnote. I never really got comfortable using Evernote, to be honest. It never went beyond scribbling a note here, a thought there. 
