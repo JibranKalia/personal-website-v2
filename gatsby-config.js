@@ -1,85 +1,72 @@
+require(`dotenv`).config({
+  path: `.env`,
+})
+
 module.exports = {
   siteMetadata: {
-    title: `Jibran's Dev Blog`,
-    author: {
-      name: `Jibran Kalia`,
-      summary: `who lives in Dallas, TX and loves making web apps.`,
-    },
-    description: `Jibran Kalia's personal blog`,
+    siteTitle: `Jibran's Dev Blog`,
+    siteTitleAlt: `Jibran's Dev Blog`,
+    siteHeadline: `Jibran's Dev Blog`,
     siteUrl: `https://jibrankalia.com/`,
-    social: {
-      twitter: `jibrankalia`,
-      github: `jibrankalia`
-    },
+    siteDescription: `Jibran's Dev Blog`,
+    siteLanguage: `en`,
+    siteImage: `/banner.jpg`,
+    author: `@jibrankalia`,
   },
   plugins: [
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/assets`,
-        name: `assets`,
-      },
-    },
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
+        navigation: [
           {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 590,
-            },
+            title: `Blog`,
+            slug: `/blog`,
           },
           {
-            resolve: `gatsby-remark-responsive-iframe`,
-            options: {
-              wrapperStyle: `margin-bottom: 1.0725rem`,
-            },
+            title: `About`,
+            slug: `/about`,
           },
-          `gatsby-remark-prismjs`,
-          `gatsby-remark-copy-linked-files`,
-          `gatsby-remark-smartypants`,
+        ],
+        externalLinks: [
+          {
+            name: `Twitter`,
+            url: `https://twitter.com/jibrankalia`,
+          },
+          {
+            name: `Github`,
+            url: `https://github.com/jibrankalia`,
+          },
         ],
       },
     },
-    `gatsby-transformer-sharp`,
+    `gatsby-plugin-typescript`,
     `gatsby-plugin-sitemap`,
-    `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: `UA-129311280-1`,
-      },
-    },
-    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Jibran Kalia's blog`,
-        short_name: `JibranKalia`,
+        name: `Jibran's Dev Blog`,
+        short_name: `minimal-blog`,
+        description: `Thoughts on life, software engineering and more.`,
         start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `content/assets/logo.png`,
+        background_color: `#fff`,
+        theme_color: `#6B46C1`,
+        display: `standalone`,
+        icons: [
+          {
+            src: `/android-chrome-192x192.png`,
+            sizes: `192x192`,
+            type: `image/png`,
+          },
+          {
+            src: `/android-chrome-512x512.png`,
+            sizes: `512x512`,
+            type: `image/png`,
+          },
+        ],
       },
     },
-    `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/utils/typography`,
-      },
-    },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-netlify`,
+    // `gatsby-plugin-webpack-bundle-analyser-v2`,
   ],
 }
