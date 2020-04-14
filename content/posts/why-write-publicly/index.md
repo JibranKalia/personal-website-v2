@@ -18,7 +18,7 @@ If it's going to stay on my laptop there is no reason for it to be well written.
 
 ### Accountablity
 
-This is because there is a very clear boundary. There is a distinct `measurable` end goal. With a lot of creative work, I produce be it blogs or open-source code it tends to lounge in the 80 to 90% done category. This blog provides the impetus to get it to 100% and publish.
+This is because there is a very clear boundary. There is a distinct `measurable` end goal. With a lot of creative work, be it extensive notes or open-source code it tends to lounge in the 80 to 90% done category. This blog provides the impetus to get it to 100% and publish.
 
 ## Is this a blog?
 
