@@ -22,15 +22,20 @@ This is because there is a very clear boundary. There is a distinct `measurable`
 
 ## Is this a blog?
 
-I initially thought of it as a blog. However, that doesn't seem like a good fit. I have been inspired by two different but similar notions `Digital Garden` and `Knowledge Dump`. This is my first pass at making a proper knowledge management system. It's not pretty but its mine.
+I initially thought of it as a blog. However, that doesn't seem like a good fit. I have been inspired by two different but similar notions: `Digital Garden` and `Knowledge Dump`. This is my first pass at making a proper knowledge management system. It's not pretty but its mine.
 
 ### Digital Garden
 [My blog is a digital garden](https://joelhooks.com/digital-garden)
+
 [How blogs broke the web](https://stackingthebricks.com/how-blogs-broke-the-web/)
+
 [Building a digital garden](https://tomcritchlow.com/2019/02/17/building-digital-garden/)
 
 ### Knowledge Dump
 [Jethro Kuan](https://braindump.jethro.dev/)
+
 [Andy Matuschak](https://notes.andymatuschak.org/About_these_notes)
+
 [Nikita Voloboev](https://wiki.nikitavoloboev.xyz/)
-[[Dmitrii Gerasimov](https://beepb00p.xyz/exobrain/)
+
+[Dmitrii Gerasimov](https://beepb00p.xyz/exobrain/)
