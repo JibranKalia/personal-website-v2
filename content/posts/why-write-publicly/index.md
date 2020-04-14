@@ -33,4 +33,4 @@ I initially thought of it as a blog. However, that doesn't seem like a good fit.
 [Jethro Kuan](https://braindump.jethro.dev/)
 [Andy Matuschak](https://notes.andymatuschak.org/About_these_notes)
 [Nikita Voloboev](https://wiki.nikitavoloboev.xyz/)
-https://beepb00p.xyz/exobrain/
+[[Dmitrii Gerasimov](https://beepb00p.xyz/exobrain/)
